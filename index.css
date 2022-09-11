@@ -10,7 +10,7 @@
 .card {
     width: 300px;
     height: 400px;
-    background-color: beige;
+    background-color: rgb(245, 230, 197);
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -38,12 +38,12 @@
 
 .photo-position {
     margin-top: -50px;
-    margin-left: 8%;
+    margin-left: 5%;
 }
 
 .person-info {
     margin-top: -50px;
-    margin-left: 130px;
+    margin-left: 125px;
 }
 
 .name {
@@ -56,21 +56,29 @@
 
 .about {
     line-height: 1.5em;
-    margin: 5% 5% 2% 8%
+    margin: 4% 2% 2% 8%
 }
 
 .ref {
     text-decoration: none;
     margin-left: 8%;
     color: dodgerblue;
+    color: darkgoldenrod;
+    font-size: 14px;
 }
 
 .account-info {
     margin-top: 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 .number {
     font-size: 20px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
 }
