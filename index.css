@@ -1,58 +1,76 @@
 .wrapper {
-width: 100vw;
-height: 100vh;
-background-color: rgb(191, 211, 219);
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(191, 211, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .card {
-width: 300px;
-height: 400px;
-background-color: beige;
-display: flex;
-flex-direction: column;
-align-items: stretch;
-font-size: 16px;
+    width: 300px;
+    height: 400px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 16px;
 }
+
 .background {
-height: 100%;
-width: 100%;
-object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
+
 .size-bg {
     height: 40%;
 }
+
 .photo {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-object-fit: cover;
-box-sizing: border-box;
-border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 3px solid black;
 }
+
 .photo-position {
     margin-top: -50px;
     margin-left: 8%;
 }
+
 .person-info {
-margin-top: -50px;
-margin-left: 130px;
+    margin-top: -50px;
+    margin-left: 130px;
 }
+
 .name {
-
+    font-size: 20px;
 }
+
 .place {
-font-size: 14px;
+    font-size: 14px;
 }
-.about {
-line-height: 1.5em;
-margin: 5% 5% 5% 8%
-}
-.ref {
 
+.about {
+    line-height: 1.5em;
+    margin: 5% 5% 2% 8%
 }
+
+.ref {
+    text-decoration: none;
+    margin-left: 8%;
+    color: dodgerblue;
+}
+
 .account-info {
-display: flex;
-justify-content: space-around;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.number {
+    font-size: 20px;
 }
